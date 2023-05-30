@@ -1,16 +1,21 @@
 # fastlane_sample
 
-A new Flutter project.
+A Sample Fastlane project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### install fvm
 
-A few resources to get you started if this is your first Flutter project:
+``brew tap leoafarias/fvm``
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+``brew install fvm``
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+``fvm install``
+
+### install fastlane
+
+``brew install fastlane``
+
+### build android app
+
+``bash ci.sh``
